@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaskList</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="finish_project">Finish Project</string>
+    <string name="mobile_computing_android_app">Mobile Computing Android App</string>
+    <string name="tomorrow">Tomorrow</string>
+</resources>
