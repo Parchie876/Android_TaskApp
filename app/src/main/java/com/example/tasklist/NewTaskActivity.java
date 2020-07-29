@@ -28,6 +28,7 @@ public class NewTaskActivity extends AppCompatActivity {
 
     TaskAdapter taskAdapter;
     Integer taskNum = new Random().nextInt();
+    String taskKey = Integer.toString(taskNum);
 
 
     @Override
@@ -48,6 +49,14 @@ public class NewTaskActivity extends AppCompatActivity {
         btnSaveTask = findViewById(R.id.btnSaveTask);
         btnCancelTask = findViewById(R.id.btnCancelTask);
 
+        btnCancelTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(NewTaskActivity.this,MainActivity.class);
+                startActivity(a);
+            }
+        });
+
         btnSaveTask.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,6 +69,7 @@ public class NewTaskActivity extends AppCompatActivity {
                         dataSnapshot.getRef().child("taskTitle").setValue(titleTask.getText().toString());
                         dataSnapshot.getRef().child("taskDesc").setValue(taskDescription.getText().toString());
                         dataSnapshot.getRef().child("taskDate").setValue(taskTargetDate.getText().toString());
+                        dataSnapshot.getRef().child("taskKey").setValue(taskKey);
 
                         Intent a = new Intent( NewTaskActivity.this,MainActivity.class);
                         startActivity(a);

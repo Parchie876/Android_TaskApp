@@ -5,14 +5,24 @@ public class MyTask {
     String taskTitle;
     String taskDesc;
     String taskDate;
+    String taskKey;
 
     public MyTask() {
     }
 
-    public MyTask(String taskTitle, String taskDesc, String taskDate) {
+    public MyTask(String taskTitle, String taskDesc, String taskDate, String taskKey) {
         this.taskTitle = taskTitle;
         this.taskDesc = taskDesc;
         this.taskDate = taskDate;
+        this.taskKey = taskKey;
+    }
+
+    public String getTaskKey() {
+        return taskKey;
+    }
+
+    public void setTaskKey(String taskKey) {
+        this.taskKey = taskKey;
     }
 
     public String getTaskTitle() {
