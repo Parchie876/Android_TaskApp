@@ -121,7 +121,7 @@
 
             <EditText
                 android:id="@+id/taskTargetDate"
-                android:inputType="date"
+                android:inputType="text"
                 android:background="@drawable/bginputtask"
                 android:paddingLeft="12dp"
                 android:textColorHint="#B5B5B5"
@@ -156,6 +156,6 @@
         android:background="@drawable/bgbtncancel"
         android:textSize="22sp"
         android:layout_width="match_parent"
-        android:layout_height="55dp"/>
+        android:layout_height="48dp"/>
     
 </LinearLayout>
