@@ -123,12 +123,11 @@
 
             <EditText
                 android:id="@+id/taskTargetDate"
-                android:inputType="date"
                 android:background="@drawable/bginputtask"
                 android:paddingLeft="12dp"
                 android:textColorHint="#B5B5B5"
                 android:textColor="@color/colorPrimaryDark"
-                android:hint="January 1,2021"
+                android:hint="Select Date"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"/>
         </LinearLayout>

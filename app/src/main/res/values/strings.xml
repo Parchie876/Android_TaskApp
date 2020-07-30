@@ -4,4 +4,7 @@
     <string name="finish_project">Finish Project</string>
     <string name="mobile_computing_android_app">Mobile Computing Android App</string>
     <string name="tomorrow">Tomorrow</string>
+    <string name="invalid_title">Please enter a valid title</string>
+    <string name="invalid_description">Please Enter A Valid Description</string>
+    <string name="invalid_date">Please Enter a Valid Date</string>
 </resources>
