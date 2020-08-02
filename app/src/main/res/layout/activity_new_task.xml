@@ -67,7 +67,7 @@
                 android:background="@drawable/bginputtask"
                 android:paddingLeft="12dp"
                 android:textColorHint="#B5B5B5"
-                android:maxLength="15"
+                android:maxLength="25"
                 android:textColor="@color/colorPrimaryDark"
                 android:hint="What is the Task"
                 android:layout_width="match_parent"
